@@ -362,7 +362,74 @@ A1.20 - Authentication Methods
  >     - Chaves FIDO2.
 
 A1.21 - External Identities 
- > - Azure Migrate
+ > - Permite usuários externos acessarem recursos internos com segurança.
+ > - Exemplos de usuários externos:
+ >   - Parceiros;
+ >   - Fornecedores;
+ >   - Clientes.
+ > - Recursos:
+ >   - B2B - Business to Business;
+ >   - B2C - Business to Consumer;
+ >   - Login com Google, Facebook, Apple, etc.          
+
+A1.22 - Microsoft Entra Conditional Access
+ > - Sistema de controle de acesso baseado em condições.
+ > - Define SE e COMO o acesso será permitido. Considerando:
+ >   - Usuário ou Grupo;
+ >   - Localização;
+ >   - Dispositivo;
+ >   - Aplicação;
+ >   - Nível de Risco.
+ > - Ações Possíveis:
+ >   - Bloquear Acesso;
+ >   - Exigir MFA;
+ >   - Exigir Dispositivo Compatível.
+
+A1.23 - Role-Based Access Control (RBAC)
+ > - Controle de acesso baseado em funções:
+ > - Define:
+ >   - Quem pode acessar;
+ >   - O que pode acessar;
+ >   - Onde pode acessar.
+ > - Exemplo:
+ >   - Leitor: Apenas leitura;
+ >   - Contribuidor: Criar e gerenciar recursos;
+ >   - Proprietário: Controle total.        
+
+A1.24 - Microsoft Defender for Cloud
+ > - Ferramenta de gerenciamento de postura de segurança e proteção contra ameaças;
+ > - Tanto para ambientes híbridos, quanto Azure.
+ > - Principais Objetivos:
+ >   - Avaliar configurações de segurança;
+ >   - Identificar vulnerabilidades;
+ >   - Recomendar melhorias;
+ >   - Detectar ameaças em tempo real.
+ > - Funciona em:
+ >   - Azure;
+ >   - On-Premises;
+ >   - Multicloud (AWS, GCP).
+
+A1.25 - Fatores que Afetam Custos no Azure
+ > - 1. Tipo de Recurso
+ >   - Máquinas Virtuais, Bancos de Dados, Storage, Serviços de Rede, etc.
+ >  
+ > - 2. Uso | Consumo
+ >   - Tempo de recurso ativo, quantidade de dados processados ou armazenados.
+ >
+ > - 3. Região
+ >   - Preços variam conforme regiões.
+ >
+ > - 4. Tamanho e Capacidade
+ >   - Tamanho da VM, performance do BD, Tipo de Armazenamento, etc.
+ >
+ > - 5. Tipo de Cobrança
+ >   - Pay as you go, Reserved Instances, Azure Savings Plans.
+ >
+ > - 6. Tráfego de Rede
+ >   - Entrada de dados (normalmente gratuita), e saída de dados (egress).
+ >
+ > - 7. Licenciamento
+ >   - Uso de licenças próprias, sistemas operacionais e softwares pagos. 
 
 </div> 
 </details>
