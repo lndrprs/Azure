@@ -321,7 +321,49 @@ A1.18 - Migration Options
  >   - Dispositivo físico da Microsoft;
  >   - Usado quando volume de dados é gigante, e internet lenta / limitada;
  >   - Copia os dados localmente, e envia o dispositivo de volta à Microsoft.           
- 
+
+A1.19 - Directory Services 
+ > - Microsoft Entra ID
+ >   - Serviço de identidade e gerenciamento de acesso da Microsoft, na Nuvem.
+ >   - Principais Funções:
+ >     - Gerenciamento de usuários, grupos e dispositivos;
+ >     - Autenticação e autorização para Azure, M365, e Aplicações SaaS;
+ >     - Integração com On-Premises Active Directory;
+ >     - Base para SSO, MFA e Conditional Access.
+ >
+ > - Microsoft Entra Domain Services (Azure AD DS)
+ >   - Serviços de domínio gerenciados na nuvem, sem precisar de controladores de domínio;
+ >   - Usado quando aplicações legadas precisam de funcionalidades de domínio tradicionais. 
+ >   - Inclui:
+ >     - Domain Join;
+ >     - LDAP;
+ >     - Kerberos;
+ >     - NTLM;
+ >     - Group Policy (GPO)
+ >                      
+
+A1.20 - Authentication Methods
+ > - Single Sign-On (SSO)
+ >   - Melhora a experiência do usuário;
+ >   - Reduz riscos com múltiplas senhas.   
+ >     - Login apenas uma vez;
+ >     - Acessar vários aplicativos com uma autenticação.
+ >
+ > - Multifactor Authentication (MFA)
+ >   - Exigência de dois ou mais fatores de autenticação;
+ >   - Reduz ataques de credenciais roubadas.
+ >
+ > - Passwordless
+ >   - Autenticação sem senha;
+>    - Mais seguro e elimina phishing baseado em senha. 
+ >   - Exemplos:
+ >     - Microsoft Authenticator;
+ >     - Windows Hello for Business;
+ >     - Chaves FIDO2.
+
+A1.21 - External Identities 
+ > - Azure Migrate
+
 </div> 
 </details>
 
