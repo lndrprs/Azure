@@ -15,7 +15,7 @@
 ----
 
 <details>
-  <summary><b> 1. Tópicos</b></summary>
+  <summary><b> 1. Tópicos Fundamentais</b></summary>
 <div align="Left">  
 <br>  
 
@@ -214,14 +214,113 @@ A1.11 - Virtual Networking
 A1.12 - Public Endpoint vs Private Endpoint
  > - Public Endpoint
  >   - Acessível pela internet pública;
- >   - Usa IP público
+ >   - Usa IP público.
  >     - Exemplo: Site público. 
  >
  > - Private Endpoint
  >   - Usa IP privado denrtro da VNet;
  >   - Acesso restrito à rede privada;
  >   - Mais seguro.
- >     - Exemplo: Banco de dados acessado internamente.  
+ >     - Exemplo: Banco de dados acessado internamente.
+    
+A1.13 - Azure Storage Services 
+ > - Azure Storage possui quatro serviços principais:
+ >   - Blob Storage
+ >     - Armazena objetos - arquivos, imagens, vídeos, backups;
+ >     - Ideal para dados não estruturados.
+ >     - Muito usado para:
+ >       - Backups;
+ >       - Data Lakes;
+ >       - Conteúdos Estáticos de Sites.
+ >
+ >   - File Storage | Azure Files
+ >     - Compartilhamentos de Arquivos na Nuvem;
+ >     - Acesso via SMB ou NFS;
+ >     - Pode substituir servidores de arquivos locais;
+ >     - Integração com Azure File Sync.
+ >
+ >   - Queue Storage
+ >     - Armazena mensagens para comunicação assíncrona entre aplicações;
+ >     - Usado para desacoplamento de Sistemas.
+ >
+ >   - Table Storage
+ >     - Armazenamento NoSQL (Chave - Valor);
+ >     - Ideal para grandes volumes de dados estruturados, mas não relacionais.
+                
+ A1.14 - Storage Tiers | Camadas de Armazenamento 
+ > - As camadas controlam Custo x Desempenho:
+ >   - Hot
+ >     - Acesso Frequente;
+ >     - Maior custo de armazenamento;
+ >     - Menor custo de acesso.
+ >
+ >   - Cool
+ >     - Acesso menos frequentes;
+ >     - Armazenamento mais barato;
+ >     - Custo maior para leitura / gravação.
+ >
+ >   - Archive
+ >     - Acesso raro;
+ >     - Muito barato para armazenar;
+ >     - Recuperação lenta (horas);
+ >     -  Ideal para backups e retenção de longo prazo.
+
+A1.15 - Redundancy Options 
+ > - Definição de como os dados serão replicados:
+ >   - LRS - Locally Redundant Storage
+ >     - 3 cópias no mesmo datacenter;
+ >     - Mais barato;
+ >     - Protege contra falhas locais.
+ >
+ >   - ZRS - Zone-Redundant Storage
+ >     - Replicação entre zonas de disponibilidade;
+ >     - Alta disponibilidade dentro da região.
+ >
+ >   - GRS - Geo-Redundant Storage
+ >     - Replica dados para outra região;
+ >     - Protege contra falhas regionais.
+ >
+ >   - GZRS - Geo-Zone-Redundant Storage
+ >     - Combina ZRS e GRS
+
+A1.16 - Storage Account Options and Storage Types
+ > - Tipos de Storage Account:
+ >   - General Purpose v2 (GPv2): Padrão recomendado;
+ >   - Blob Storage Account: Otimizada apenas para Blobs;
+ >   - FileStorage: Otimizada para Azure Files (Premium).
+ >
+ > - Tipos de Armazenamento:
+ >   - Standard: HDD, mais barato;
+ >   - Premium: SSD, alto desempenho e baixa latência.
+
+A1.17 - Options for Moving Files
+ > - AzCopy
+ >   - Ferramenta de linha de comando;
+ >   - Transferência rápida de dados para / de Blob e File Storage;
+ >   - Ideal para grandes volumes.
+ >
+ > - Azure Storage Explorer
+ >   - Interface gráfica;
+ >   - Facilita upload, download e gerenciamento;
+ >   - Uso manual e visual.
+ >
+ > - Azure File Sync
+ >   - Sincroniza arquivos locais com Azure Files;
+ >   - Mantém cache local;
+ >   - Ideal para Ambientes Híbridos.
+
+A1.18 - Migration Options
+ > - Azure Migrate
+ >   - Avaliação e Migração de:
+ >     - Servidores;
+ >     - Máquinas Virtuais;
+ >     - Bancos de Dados.
+ >   - Ajuda a planejar custos e compatibilidade.
+ >
+ > - Azure Data Box
+ >   - Dispositivo físico da Microsoft;
+ >   - Usado quando volume de dados é gigante, e internet lenta / limitada;
+ >   - Copia os dados localmente, e envia o dispositivo de volta à Microsoft.           
  
 </div> 
 </details>
