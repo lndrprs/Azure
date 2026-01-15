@@ -584,6 +584,10 @@ A1.42 - Application Insights
  >   - Taxa de Falhas;
  >   - Dependências (APIs, banco, serviços externos);
  >   - Telemetria customizada. 
+ > - Usado com:
+ >   - Aplicações Web;
+ >   - APIs;
+ >   - Microsserviços.
 
 
 </div> 
