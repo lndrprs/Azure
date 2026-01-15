@@ -539,7 +539,52 @@ A1.36 - Azure Resource Manager (ARM) e ARM Templates
  > - Bicep é uma alternativa mais simples e legível aos ARM Templates em JSON.   
 
 A1.37 - Azure Advisor
- > - ARM é a camada de gerenciamento do Azure;
+ > - Serviço que analisa continuamente recursos no Azure e fornece recomendações personalidades;
+ > - Avalia a assinatura, e sugere ações como:
+ >   - Redimensionar máquinas virtuais subutilizadas;  
+ >   - Ativar Backups;
+ >   - Melhorar alta disponibilidade;
+ >   - Aplicar boas práticas de segurança. 
+ > - Apenas recomenda, não faz mudanças automaticamente. 
+
+A1.38 - Azure Service Health 
+ > - Fornece informações sobre o estado dos serviços do Azure, e como eles impactam recursos específicos;
+ > - Tipo de informações fornecidas:
+ >   - Service Issues;
+ >   - Planned Maintenance;
+ >   - Health Advisories. 
+
+A1.39 - Azure Monitor
+ > - Plataforma central de monitoramento e observabilidade do Azure;
+ > - Coleta, analisa e age sobre dados de:
+ >   - Infraestrutura;
+ >   - Aplicações;
+ >   - Redes;
+ >   - Plataformas. 
+
+A1.40 - Log Analytics
+ > - Coleta e armazena logs e métricas;
+ > - Usa linguagem KQL - Kusto Query Language, para consultas. 
+ > - Usado para:
+ >   - Investigações;
+ >   - Auditorias;
+ >   - Troubleshooting. 
+
+A1.41 - Azure Monitor Alerts 
+ > - Permite criar alertas baseados em:
+ >   - Métricas;
+ >   - Logs;
+ >   - Eventos. 
+ > - Permite enviar notificações e executar ações automáticas. 
+
+A1.42 - Application Insights
+ > - Focado em monitoramento de aplicações 
+ > - Coleta:
+ >   - Tempo de Resposta;
+ >   - Taxa de Falhas;
+ >   - Dependências (APIs, banco, serviços externos);
+ >   - Telemetria customizada. 
+
 
 </div> 
 </details>
