@@ -431,6 +431,67 @@ A1.25 - Fatores que Afetam Custos no Azure
  > - 7. Licenciamento
  >   - Uso de licenças próprias, sistemas operacionais e softwares pagos. 
 
+A1.26 - Pricing Calculator 
+ > - Ferramenta online que ajuda a estimar os custos dos serviços do Azure.
+ >   - Prevê quanto será pago nos serviços do Azure;
+ >   - Compara opções de configuração (Tipos de VM, regiões, storages,etc);
+ >   - Planeja orçamento.
+
+A1.27 - Cost Management Capabilities 
+ > - Azure Cost Management + Billing: Conjunto de ferramentas do Azure, para monitorar, analisar e controlar custos.
+ >   - Monitoramento de Custos:
+ >     - Assinatura;
+ >     - Serviço;
+ >     - Grupo de Recursos;
+ >     - Período de Tempo.
+ >
+ >   - Análise de Custos:
+ >     - Gráficos e relatórios detalhados;
+ >     - Identificação de serviços mais caros;
+ >     - Comparação de gastos ao longo do tempo.
+ >
+ >   - Orçamentos e Alertas:
+ >     - Criar budgets | orçamentos;
+ >     - Receber alertas com limite de gasto perto ou limite ultrapassado.
+ >  
+ >   - Recomendações de Otimização:
+ >     - Sugere reduções de custos como redimensionamentos, desligamento, reservas / planos de economia...
+
+A1.28 - Purpose of Tags
+ > - Tags são pares de nome / valor usados para organizar recursos no Azure.
+ > - Funcionalidades:
+ >   - Organizar recursos;
+ >   - Facilitar gestão de custos;
+ >   - Melhorar governança e controle.
+
+A1.29 - Microsoft Purview 
+ > - Solução de governança, gerenciamento e conformidade de dados no Azure, e ambientes Híbridos / Multicloud.
+ > - Ajuda a entender, classificar e proteger os dados;
+ > - Garante conformidade com leis e normas (LGPD, GDPR, etc,);
+ > - Visibilidade completa de onde os dados estão e como são usados.
+ > - Funcionalidades:
+ >   - Data Map: Mostra onde os dados estão armazenados;
+ >   - Data Catalog: Permite que usuários encontrem e entendam dados disponíveis;
+ >   - Classificação de Dados: Identifica dados sensíveis;
+ >   - Governança e Conformidade: Ajuda a aplicar políticas de segurança e privacidade.
+
+A1.30 - Azure Policy
+ > - Serviço que ajuda a criar, aplicar e garantir regras para recursos no Azure.
+ >   - Garante que os recursos sigam padrões corporativos;
+ >   - Evita configurações incorretas, ou fora de conformidade;
+ >   - Manter consistência no ambiente Azure.
+
+A1.31 - Resource Locks
+ > - Bloqueios de Recursos servem para evitar exclusão ou alterações em recursos no Azure;
+ > - Evitam erros humanos, e protege recursos críticos.
+ > - Tipos:
+ >   - CanNotDelete: Não pode ser excluído, mas pode ser modificado;
+ >   - ReadOnly: Não pode ser alterado e nem excluído.
+ > - Podem ser aplicados em em: Subscriptions, Resource Group, e Resources;
+ > - Mesmo administradores são afetados pelas travas.       
+
+
+
 </div> 
 </details>
 
