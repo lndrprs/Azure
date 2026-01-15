@@ -538,7 +538,8 @@ A1.36 - Azure Resource Manager (ARM) e ARM Templates
  >
  > - Bicep é uma alternativa mais simples e legível aos ARM Templates em JSON.   
 
-
+A1.37 - Azure Advisor
+ > - ARM é a camada de gerenciamento do Azure;
 
 </div> 
 </details>
