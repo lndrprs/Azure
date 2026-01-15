@@ -9,7 +9,7 @@
 ██╔══██║██╔══╝░░██║░░░██║██╔══██╗██╔══╝░░
 ██║░░██║███████╗╚██████╔╝██║░░██║███████╗
 ╚═╝░░╚═╝╚══════╝░╚═════╝░╚═╝░░╚═╝╚══════╝
-</h4>
+</h3>
 </div>
 
 ----
@@ -42,7 +42,7 @@ A1.1 - Azure Regions | Regiões do Azure
  > - Características:
  >   - Isoladas do Azure Público;
  >   - Atendem leis locais e requisitos de compliance;
- >   - Acesso e autenticação diferenciados.                     
+ >   - Acesso e autenticação diferenciados. 
 
 A1.2 - Availability Zones | Zonas de Disponibilidade 
  > - Localização física separada, dentro de uma região do Azure;
