@@ -490,6 +490,54 @@ A1.31 - Resource Locks
  > - Podem ser aplicados em em: Subscriptions, Resource Group, e Resources;
  > - Mesmo administradores são afetados pelas travas.       
 
+A1.32 - Azure Portal 
+ > - Interface gráfica na Web, para gerenciar recursos do Azure.
+ >   - Cria, configura e monitora recursos;
+ >   - Visualiza dashboards e relatórios;
+ >   - Gerencia usuários, permissões e políticas;
+ >   - Acompanhar custos e status dos serviços.
+
+A1.33 - Azure Cloud Shell (CLI e Powershell)
+ > - Terminal interativo na Web, acessível através do Azure Portal.
+ >   - Executa comandos para gerenciar recursos do Azure;
+ >   - Não exige instalação local.
+ >   - Já vem autenticado na conta Azure.
+ > - Suporte:
+ >   - Azure CLI
+ >     - Baseado em comandos (az);
+ >     - Funciona em Windows, Linux e macOS;
+ >     - Sintaxe simples e Multiplataform: az vm list
+ >
+ >   - Azure Powershell
+ >     - Baseado em cmdlets do Powershell: Get-AzVM
+
+A1.34 - Azure Arc
+ > - Estende serivços de gerenciamento do Azure para fora do Azure;
+ > - Gerencia servidores on-premises, e outras clouds: AWS, GCP...
+ > - Permite o uso de ferramentas do Azure em ambientes híbridos e multicloud:
+ >   - Aplicar Azure Policy;
+ >   - Gerenciar Configurações;
+ >   - Monitorar recursos externos como se estivessem no Azure.
+
+A1.35 - Azure Portal 
+ > - Interface gráfica na Web, para gerenciar recursos do Azure.
+
+A1.36 - Azure Resource Manager (ARM) e ARM Templates
+ > - ARM é a camada de gerenciamento do Azure;
+ > - Função:
+ >   - Cria, atualiza e exclui recursos;
+ >   - Gerencia recursos como um grupo;
+ >   - Aplica controle de acesso (RBAC), policies e tags;
+ > - Tudo no Azure passa pelo ARM.
+ >
+ > - ARM Templates
+ >   - Arquivos JSON, usados para definir IaC no Azure;
+ >   - Declara quais recursos devem ser criados;  
+ >   - Automatiza Implantações;
+ >   - Repete ambientes de forma consistente.
+ >
+ > - Bicep é uma alternativa mais simples e legível aos ARM Templates em JSON.   
+
 
 
 </div> 
