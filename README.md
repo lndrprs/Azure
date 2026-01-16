@@ -340,7 +340,21 @@ A1.19 - Directory Services
  >     - Kerberos;
  >     - NTLM;
  >     - Group Policy (GPO)
- >                      
+ >
+ > - Administrative Units (AU)
+ >   - Contêiner lógico de usuários, grupos e dispositivos;
+ >   - Delega administração de forma granular / segmentada;                       
+ >   - Não substituem grupos, apenas definem escopo administrativos;
+ >   - AUs não podem ser gerenciados pelo administrador da AU - apenas sobre os membros;
+ >   - AUs não podem conter outros AUs (Não é hierárquivo)
+ >     - Licenças:
+ >       - Criar AUs: Microsoft Entra ID Free;
+ >       - Administradores AUs: ID P1 ou P2;
+ >       - Membership Dinâmico: Cada membro precisa da P1.
+ >     - Gerenciamento (Criar, Adição de Usuários, Atribuir Funções):  
+ >       - Portal Microsoft Entra Admin Center;
+ >       - PowerShell;
+ >       - Microsoft Graph API.
 
 A1.20 - Authentication Methods
  > - Single Sign-On (SSO)
