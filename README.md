@@ -15,7 +15,7 @@
 ----
 
 <details>
-  <summary><b> 1. Tópicos Fundamentais</b></summary>
+  <summary><b> 1. Tópicos </b></summary>
 <div align="Left">  
 <br>  
 
@@ -355,6 +355,18 @@ A1.19 - Directory Services
  >       - Portal Microsoft Entra Admin Center;
  >       - PowerShell;
  >       - Microsoft Graph API.
+ > 
+ > - Device Identity 
+ >   - Objeto no Entra ID que representa um dispositivo dentro da organização;
+ >   - Permite que dispositivos sejam reconhecidos e autenticados, acessando recursos corporativos.
+ >   - Um dispositivo registrado é essencial para:
+ >     - Single Sign-On (SSO) em recursos na nuvem e on-premises;
+ >     - Aplicar políticas baseadas no dispositivo. 
+ >
+ >   - Tipos de Associação:
+ >     - Registered: Normalmente usado para BYOD - Registro simples, controle limitado;
+ >     - Entra Joined: Dispositivos W10 / W11 - Permite acesso SSO completo e integração com políticas;
+ >     - Hybrid Entra: Dispositivos no local (AD), e sincronizados com Entra ID.  
 
 A1.20 - Authentication Methods
  > - Single Sign-On (SSO)
