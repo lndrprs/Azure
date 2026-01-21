@@ -366,7 +366,18 @@ A1.19 - Directory Services
  >   - Tipos de Associação:
  >     - Registered: Normalmente usado para BYOD - Registro simples, controle limitado;
  >     - Entra Joined: Dispositivos W10 / W11 - Permite acesso SSO completo e integração com políticas;
- >     - Hybrid Entra: Dispositivos no local (AD), e sincronizados com Entra ID.  
+ >     - Hybrid Entra: Dispositivos no local (AD), e sincronizados com Entra ID. 
+ >
+ >   - Gerenciamento no Entra Admin Center
+ >     - Ver tdodos os dispositivos registrados / associados; 
+ >     - Filtrar por tipo de Join, Sistemas Operacionais, Estado, etc;
+ >     - Obter contagens de dispositivos com problemas. 
+ >   
+ >   - Ações Administrativas
+ >     - Habilitar / Desabilitar dispositivos;
+ >     - Deletar dispositivos; 
+ >     - Visualizar / Copiar Device ID;
+ >     - Ver chaves BitLocker. 
 
 A1.20 - Authentication Methods
  > - Single Sign-On (SSO)
@@ -397,6 +408,24 @@ A1.21 - External Identities
  >   - B2B - Business to Business;
  >   - B2C - Business to Consumer;
  >   - Login com Google, Facebook, Apple, etc.          
+ >
+ > - B2B
+ >   - Colaboração entre Empresas; 
+ >   - Permite colaboração com pessoas fora da organização;
+ >   - Acessam recursos internos, com credenciais externas;
+ >   - Quando convidados / se inscrevem, ganham um objeto de usuário no diretório: "Guest";
+ >     - Podem ser adicionados a grupos ou aplicativos como qualquer usuário. 
+ >
+ >   - Permite controlar quem pode convidar usuários, e quais domínios são permitidos ou bloqueados;
+ >   - Permite gerenciar confiança e autenticação entre diferentes instâncias do Entra ID;
+ >   - Possível usar o Conditional Access para reforçar requisitos. 
+ >
+ > - Access Reviews 
+ >   - Revisões usadas para confirmar se usuários ainda devem ter acessos a recursos internos; 
+ >   - As revisões podem ser manuais, ou recorrentes / periódicas;
+ >   - Os responsáveis podem ser os próprios usuários, ou um revisor designado; 
+ >   - Precisa ter Entra ID p2 ou Entra ID Governance. 
+
 
 A1.22 - Microsoft Entra Conditional Access
  > - Sistema de controle de acesso baseado em condições.
