@@ -378,6 +378,43 @@ A1.19 - Directory Services
  >     - Deletar dispositivos; 
  >     - Visualizar / Copiar Device ID;
  >     - Ver chaves BitLocker. 
+ >
+ > - Planejamento de Microsoft Entra Join
+ >   - Associação de dispositivos diretamente ao Microsoft Entra ID, sem usar o AD On-Premises;
+ >
+ >   - Pré-Requisito:
+ >     - Usuário já sincronizado no entra ID ou criado no Entra ID; 
+ >
+ >   - Cenário de Identidade
+ >     - Gerenciado: Senha Sincronizada (Password Hash Sync), ou Pass-Through AUthentication com SSO;
+ >     - Federado: Suporte a protocolos WS-Fed para ingresso e WS-Trust para Login.
+ >
+ >   - Plataformas Suportadas
+ >     - W10 e W11;
+ >     - TPM 2.0 com suporte ao FIPS.
+ >
+ >   - Gestão de Dispositivos
+ >     - Usado com MDM (Como Intune) - Não há suporte a GPOs;
+ >     - Gerenciamento pelo MDM ou Co-Gerenciamento (Intune + Configuration Manager).
+ >
+ >   - Provisionamento:
+ >     - Autoatendimento no OOBE ou Configurações do Windows;
+ >     - Windows Autopilot;
+ >     - Bulk Enrollment. 
+ >
+ > - Planejamento de Hybrid Join
+ >   - Quando um dispositivo está unido no AD Local e também registrado no Entra ID. 
+ >
+ >   - Pré-Requisitos:
+ >     - Ambiente com AD DS;
+ >     - Azure AD / Entra Connect Configurado;
+ >     - Controladores de Domínio com versão mínima Windows Server 2008 R2. 
+ >
+ >   - Suporte ao Sistema
+ >     - W10 / W11 / Windows Server 2016/ 19/ 22
+ >     - Não suportado em controladores de domínio ou Server Core. 
+ >     - Dispositivos precisam ter acesso periódico à rede e aos DCs para troca de senha e atualizações de credenciais. 
+
 
 A1.20 - Authentication Methods
  > - Single Sign-On (SSO)
@@ -392,7 +429,7 @@ A1.20 - Authentication Methods
  >
  > - Passwordless
  >   - Autenticação sem senha;
->    - Mais seguro e elimina phishing baseado em senha. 
+ >   - Mais seguro e elimina phishing baseado em senha. 
  >   - Exemplos:
  >     - Microsoft Authenticator;
  >     - Windows Hello for Business;
