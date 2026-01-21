@@ -434,6 +434,20 @@ A1.20 - Authentication Methods
  >     - Microsoft Authenticator;
  >     - Windows Hello for Business;
  >     - Chaves FIDO2.
+ >
+ > - Self-Service Password Reset 
+ >   - Permite que usuários redefinam ou alterem suas senhas sozinhos.
+ >
+ >   - Processo:
+ >     - 1. Usuário acessa a página de reset;
+ >     - 2. Microsoft Entra ID verifica:
+ >       - SSPR está habilitado para o usuário;
+ >       - Usuário tem métodos de autenticação registrados; 
+ >       - Se é administrador; 
+ >       - Se a senha é gerenciada no local (on-prem) e se o writeback está configurado;
+ >     - 3. Usuário passa pelos métodos de verificação cofigurados. 
+ >
+ >    - Writeback: Permite que as configurações feitas na nuvem, sejam gravadas no ambiente On-Prem. 
 
 A1.21 - External Identities 
  > - Permite usuários externos acessarem recursos internos com segurança.
